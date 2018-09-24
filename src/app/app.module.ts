@@ -21,4 +21,10 @@ import { ApicurioEditorComponent } from './apicurio-editor/apicurio-editor.compo
 })
 export class AppModule {
   constructor(private injector: Injector) {}
+
+  ngDoBootstrap() {
+    const el = createCustomElement(ApicurioEditorComponent, {injector: this.injector});
+
+    customElements.define('app-apicurio-editor', el);
+  }
 }
