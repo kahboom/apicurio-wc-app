@@ -146,6 +146,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/elements@^6.1.8":
+  version "6.1.8"
+  resolved "https://registry.yarnpkg.com/@angular/elements/-/elements-6.1.8.tgz#2ad1f4d2850491a322935525635bcf8c248d5916"
+  dependencies:
+    tslib "^1.9.0"
+
 "@angular/forms@^6.1.0":
   version "6.1.8"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-6.1.8.tgz#058429b99fc4c6554fe4943a23d4d6221cb1d9ac"
@@ -440,6 +446,10 @@
     "@webassemblyjs/ast" "1.7.6"
     "@webassemblyjs/wast-parser" "1.7.6"
     "@xtuc/long" "4.2.1"
+
+"@webcomponents/custom-elements@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/custom-elements/-/custom-elements-1.2.0.tgz#7fc8da6c8243b15b4f69c74c65dfe2a4996c694c"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -5099,6 +5109,12 @@ run-queue@^1.0.0, run-queue@^1.0.3:
 rxjs@~6.2.0:
   version "6.2.2"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.2.2.tgz#eb75fa3c186ff5289907d06483a77884586e1cf9"
+  dependencies:
+    tslib "^1.9.0"
+
+rxjs@~6.3.2:
+  version "6.3.2"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.3.2.tgz#6a688b16c4e6e980e62ea805ec30648e1c60907f"
   dependencies:
     tslib "^1.9.0"
 
