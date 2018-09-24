@@ -6,8 +6,8 @@ import { ApicurioEditorComponent } from './apicurio-editor/apicurio-editor.compo
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ApicurioEditorComponent
+    AppComponent//,
+    //ApicurioEditorComponent
   ],
   imports: [
     BrowserModule
