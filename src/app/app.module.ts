@@ -13,6 +13,9 @@ import { ApicurioEditorComponent } from './apicurio-editor/apicurio-editor.compo
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  //bootstrap: [AppComponent]
+  entryComponents: [
+    ApicurioEditorComponent
+  ]
 })
 export class AppModule { }
