@@ -7,8 +7,8 @@ import { ApicurioEditorComponent } from './apicurio-editor/apicurio-editor.compo
 
 @NgModule({
   declarations: [
-    AppComponent//,
-    //ApicurioEditorComponent
+    AppComponent,
+    ApicurioEditorComponent
   ],
   imports: [
     BrowserModule
@@ -25,6 +25,6 @@ export class AppModule {
   ngDoBootstrap() {
     const el = createCustomElement(ApicurioEditorComponent, {injector: this.injector});
 
-    customElements.define('app-apicurio-editor', el);
+    customElements.define('apicurio-wc-app', el);
   }
 }
