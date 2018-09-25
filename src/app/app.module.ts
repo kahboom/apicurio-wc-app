@@ -3,6 +3,7 @@ import { NgModule, Injector } from '@angular/core';
 import { createCustomElement } from '@angular/elements';
 
 import { AppComponent } from './app.component';
+import { ApicurioModule } from './apicurio-editor/apicurio-editor.module';
 import { ApicurioEditorComponent } from './apicurio-editor/apicurio-editor.component';
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ApicurioEditorComponent } from './apicurio-editor/apicurio-editor.compo
     ApicurioEditorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ApicurioModule
   ],
   providers: [],
   //bootstrap: [AppComponent]
